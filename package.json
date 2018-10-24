@@ -1,0 +1,23 @@
+{
+  "name": "ieee754",
+  "version": "1.0.0",
+  "description": "SEje02 formato ieee 754",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js",
+    "lint": "jshint js/utilidades.js"
+  },
+  "author": "carlos tessier",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "*",
+    "connect": "^3.6.6",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jshint": "^2.9.6",
+    "mocha": "*",
+    "serve-static": "^1.13.2"
+  }
+}
